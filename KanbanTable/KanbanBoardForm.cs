@@ -25,12 +25,17 @@ namespace KanbanTable
             project = inputProject;
             mainForm = inputForm;
         }
+        int sayac = 0;
 
         private void btnAddToDo_Click(object sender, EventArgs e)
         {
-            AddNewNoteForm addNoteForm = new AddNewNoteForm(project);
-            addNoteForm.ShowDialog();
-            ListHere();
+            
+                AddNewNoteForm addNoteForm = new AddNewNoteForm(project);
+                addNoteForm.ShowDialog();
+                ListHere();
+                
+            
+            
         }
 
         private void KanbanBoardForm_Load(object sender, EventArgs e)

@@ -26,12 +26,16 @@ namespace KanbanTable
             Login = inputLogin;
         }
 
-
+        int clock = 0;
         private void viewToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            KanbanTable = new KanbanBoardForm(project,this);
-            KanbanTable.MdiParent = this;
-            KanbanTable.Show();
+            while (clock<1)
+            {
+                KanbanTable = new KanbanBoardForm(project, this);
+                KanbanTable.MdiParent = this;
+                KanbanTable.Show();
+                clock++;
+            }         
         }
 
         private void exitProjectToolStripMenuItem_Click(object sender, EventArgs e)

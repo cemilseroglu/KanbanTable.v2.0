@@ -105,6 +105,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "ViewNotesForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ViewNotesForm";
             this.Load += new System.EventHandler(this.ViewNotesForm_Load);
             this.ResumeLayout(false);

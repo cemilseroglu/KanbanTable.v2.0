@@ -139,6 +139,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "AddNewNoteForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddNewNoteForm";
             this.Load += new System.EventHandler(this.AddNewNoteForm_Load);
             this.ResumeLayout(false);

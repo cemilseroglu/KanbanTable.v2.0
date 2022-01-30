@@ -70,6 +70,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainWindowForm";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainWindowForm";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainWindowForm_FormClosed);
             this.Load += new System.EventHandler(this.MainWindowForm_Load);

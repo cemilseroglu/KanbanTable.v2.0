@@ -64,6 +64,7 @@
             // 
             this.lbToDo.AllowDrop = true;
             this.lbToDo.BackColor = System.Drawing.Color.IndianRed;
+            this.lbToDo.ContextMenuStrip = this.contextMenuStrip1;
             this.lbToDo.FormattingEnabled = true;
             this.lbToDo.Location = new System.Drawing.Point(162, 43);
             this.lbToDo.Name = "lbToDo";
@@ -78,6 +79,7 @@
             // 
             this.lbInProgress.AllowDrop = true;
             this.lbInProgress.BackColor = System.Drawing.Color.Green;
+            this.lbInProgress.ContextMenuStrip = this.contextMenuStrip1;
             this.lbInProgress.FormattingEnabled = true;
             this.lbInProgress.Location = new System.Drawing.Point(400, 43);
             this.lbInProgress.Name = "lbInProgress";
@@ -92,6 +94,7 @@
             // 
             this.lbDone.AllowDrop = true;
             this.lbDone.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.lbDone.ContextMenuStrip = this.contextMenuStrip1;
             this.lbDone.FormattingEnabled = true;
             this.lbDone.Location = new System.Drawing.Point(636, 43);
             this.lbDone.Name = "lbDone";
